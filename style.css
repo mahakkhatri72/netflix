@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 8, 8, 0.89);
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: 100%;
+    position: relative;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.bg-cnt .logo img {
+    height: 100px;
+}
+
+.bg-cnt select {
+    height: 30px;
+    width: 100px;
+    margin: 35px 00px 00px 750px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.bg-cnt select option {
+    color: #000;
+}
+
+.bg-cnt button {
+    height: 35px;
+    width: 100px;
+    background-color: #d60909;
+    margin-top: 32px;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px
+}
+.bg-cnt button a{
+    text-decoration: none;
+    color:#fff ;
+}
+.bg-cnt h1 {
+    color: #fff;
+    width: 750px;
+    font-size: 50px;
+    text-align: center;
+    margin: 100px 00px 00px 200px;
+    font-weight: bolder;
+}
+
+.bg-cnt h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.bg-cnt input {
+    margin-left: 410px;
+    background-color: transparent;
+    height: 42px;
+    width: 250px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.bg-cnt span button {
+    width: 150px;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #d60909;
+}
+
+.sec-2 {
+    background-color: #000;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.sec-2 .left-cnt {
+    padding: 150px 50px 20px 120px;
+    float: left;
+}
+
+.sec-2 .right-cnt img {
+    height: 350px;
+    width: 500px;
+    margin-top: 70px;
+}
+
+.sec-2 h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+
+.sec-2 p {
+    color: #fff;
+    width: 350px;
+    font-size: 22px;
+}
+
+.sec-3 {
+    background-color: #000;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.sec-3 .left-cnt-3 img {
+    margin-top: 70px;
+    float: left;
+    height: 350px;
+    width: 500px;
+}
+
+.sec-3 .right-cnt-3 {
+    padding: 150px 00px 20px 170px;
+    float: left;
+}
+
+.sec-3 h2 {
+    color: #fff;
+    width: 350px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.sec-3 p {
+    color: #fff;
+    width: 350px;
+    font-size: 22px;
+}
+
+.sec-4 {
+    background-color: #000;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.sec-4 .left-cnt-4 {
+    padding: 150px 30px 20px 120px;
+    float: left;
+}
+
+.sec-4 h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.sec-4 p {
+    color: #fff;
+    width: 350px;
+    font-size: 22px;
+}
+
+.sec-4 .right-cnt-4 img {
+
+    margin-top: 70px;
+    float: left;
+    height: 350px;
+    width: 500px;
+}
+.sec-5 {
+    background-color: #000;
+    height: 500px;
+    margin-top: 10px;
+}
+.sec-5 .right-cnt-5 {
+    float: left;
+    padding: 120px 00px 00px 30px ;
+}
+
+.sec-5 .left-cnt-5 {
+    float: left;
+}
+
+
+.sec-5 h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.sec-5 p {
+    color: #fff;
+    width: 350px;
+    font-size: 22px;
+}
+
+.sec-6{
+    background-color: #000;
+    height: 800px;
+    margin-top: 10px;
+}
+.quest{
+    width: 51%;
+    min-height: 75px;
+    background-color: #303030;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin: 5px 300px 00px;
+}
+.quest h4{
+    position: relative;
+    left: 5%;
+    font-size: 20px;
+}
+.quest img{
+    position: relative;
+    right: 5%;
+}
+.subc h2{
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+.subc input {
+    margin-left: 410px;
+    background-color: transparent;
+    height: 42px;
+    width: 250px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.subc span button {
+    width: 150px;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #d60909;
+}
+.subc button a{
+    text-decoration: none;
+    color:#fff ;
+}
+.footer{
+    background-color: #000;
+    height: 400px;
+    margin-top: 10px;
+}
+.footer h5{
+    color: rgba(255,255,255,0.7);
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px 00px 30px 20px;
+}
+.footer h5 a{
+    color: rgba(255,255,255,0.7);
+}
+.footer .cate{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .cate a{
+    color: rgba(255,255,255,0.7);
+}
+
+.footer .cate a:hover{
+    color: #d60909;
+}
+.footer .cate .cate-1 li{
+    margin: 20px 00px 10px 00px;
+}
